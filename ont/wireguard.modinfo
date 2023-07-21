@@ -1,0 +1,11 @@
+filename:       /tmp/arm/kernel/wireguard/wireguard_ont.ko
+intree:         Y
+alias:          net-pf-16-proto-16-family-wireguard
+alias:          rtnl-link-wireguard
+version:        1.0.20220627
+author:         Jason A. Donenfeld <Jason@zx2c4.com>
+description:    WireGuard secure network tunnel
+license:        GPL v2
+srcversion:     ACD22B6DB90C70840D17458
+depends:        ipv6
+vermagic:       4.4.197 SMP mod_unload ARMv7 
